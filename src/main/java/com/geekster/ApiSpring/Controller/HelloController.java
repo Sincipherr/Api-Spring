@@ -17,7 +17,7 @@ public class HelloController {
     IStudentRepo sr;
     @GetMapping(value = "/hello")
     public String hello(){
-        return "Hello World";
+        return "Hello World...!";
     }
 
     @GetMapping(value = "/get")
